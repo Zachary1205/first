@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+	int price=0;                //定义变量时候的赋值，初始化 ，动态 ，类型int 
+	printf("金额（元）");       //定义了一个变量，变量名字是price,类型是int,初始值是0 
+	scanf("%d",&price);         //要求scanf（输入函数）读入下一个整数，读到结果给price 
+	
+	int change=100-price;       //定义第二个变量，并计算 
+	
+	printf("找您%d元。\n",change);
+	
+	return 0; 
+}
